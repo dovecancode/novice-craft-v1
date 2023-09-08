@@ -8,17 +8,21 @@
   </head>
   <body>
     <div class="love-wrapper">
-      <div class="love-input-wrapper">
-        <div class="love-header">
-          <h1>Love Calculator</h1>
-        </div>
-        <div><input id="guyName" type="text" placeholder="Enter a guy name" /></div>
-        <div><input id="girlName" type="text" placeholder="Enter His/Her Name" /></div>
-        <button id="pressBtn" type="button">calcute</button>
+      <div class="love-header">
+        <h1>Love Calculator</h1>
       </div>
-
-      <div id="result" class="result"></div>
+      <div class="love-input-wrapper">
+        <div class="inputs">
+          <div><input id="guyName" type="text" placeholder="Enter a guy name" /></div>
+          <div><input id="girlName" type="text" placeholder="Enter His/Her Name" /></div>
+        </div>
+        <button id="pressBtn" class="pressBtn" type="button">calcute</button>
+      </div>
+      <div id="result" class="result">
+        <p></p>
+      </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
