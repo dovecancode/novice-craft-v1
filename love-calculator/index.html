@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="love-wrapper">
-      <div class="love-header">
-        <h1>Love calculator</h1>
-      </div>
-
       <div class="love-input-wrapper">
-        <div><input type="text" placeholder="Enter a guy name" /></div>
-        <div><input type="text" placeholder="Enter His/Her Name" /></div>
-        <button type="submit">calcute</button>
+        <div class="love-header">
+          <h1>Love Calculator</h1>
+        </div>
+        <div><input id="guyName" type="text" placeholder="Enter a guy name" /></div>
+        <div><input id="girlName" type="text" placeholder="Enter His/Her Name" /></div>
+        <button id="pressBtn" type="button">calcute</button>
       </div>
 
-      <div class="result"></div>
+      <div id="result" class="result"></div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
